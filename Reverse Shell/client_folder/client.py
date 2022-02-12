@@ -12,7 +12,7 @@ from colorama import Fore
 colorama.init(autoreset=True)
 
 # Server info for connection making and message sending.
-SERVER_HOST = "192.168.254.80"
+SERVER_HOST = ""
 SERVER_PORT = 5003
 BUFFER_SIZE = 1024 * 128 # 128KB max size of messages
 SEPARATOR = "<sep>"
