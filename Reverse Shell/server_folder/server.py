@@ -8,7 +8,7 @@ colorama.init(autoreset=True)
 
 #server info
 SERVER_HOST = "0.0.0.0"
-WHITELIST_IPS = ["192.168.254.67", "192.168.254.80", "192.168.254.81"]
+WHITELIST_IPS = [""]
 SERVER_PORT = 5003
 BUFFER_SIZE = 1024 * 128 # 128KB max size of messages, feel free to increase
 SEPARATOR = "<sep>"
