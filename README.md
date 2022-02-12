@@ -1,5 +1,10 @@
 # Reverse-Shell
+## Note that this has only been tested on a windows machine, if you expiriense any bugs with Linux or mac, post an issue and i will try to fix it
+
+## Also any mac or linux users, you can add steps for your operating system by posting instruction in the issues tab and i will itegrate them with the official instructions
+
 A Reverse Shell puilt in Python
+
 
 # Downloading
 
