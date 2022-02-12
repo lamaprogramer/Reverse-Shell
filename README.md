@@ -22,7 +22,7 @@ inside the repository folder, you should see two folders: **client_folder** and 
 Move the server_folder to a place of your liking.
 Then, on a different machine, move the client folder to a place of your liking.
 
-### 4).==========================================================
+### 4).=========================================================+
 Now on your main machine, you need to open **server.py** in the **server_folder**.
 
 After opening the file, you must add the ip of your remote machine into the **WHITELIST_IPS** variable, found on line 11
@@ -41,11 +41,11 @@ ipconfig
 ```
 on your main machine
 
-### 4).===========================================================
+### 5).==========================================================
 Run the Batch files in each folder, this will start up each end
 Make sure you run the server end first, or else the client wont be able to connect
 
-### 5).===========================================================
+### 6).==========================================================
 If everything ran correctly, After you boot up the server, you should see:
 ```
 Listening as 0.0.0.0:5003 ...
@@ -57,5 +57,5 @@ REMOTEIP:REMOTEPORT Connected!
 C:\Users\remotepc\OneDrive\Desktop\Reverse Shell\client_folder $>
 ```
 
-### 6).===========================================================
+### 7).==========================================================
 By this point, you should have nearly full control of the remote pc, you can run any command, as well as transfer files using custom commands built into the Reverse Shell
