@@ -34,11 +34,25 @@ This will clone the repository into your cwd(current working directory).
 Make sure you have all of the modules needed to run the code
 
 ## 3).==========================================================
-inside the repository folder, you should see two folders: **client_folder** and **server_folder**.
-Move the server_folder to a place of your liking.
-Then, on a different machine, move the client folder to a place of your liking.
+Afterward, the folder system should look like this
+```
+Reverse-Shell
+      |
+      |--client_folder
+      |         |--client.py
+      |         |--start_clent.bat
+      |
+      |--server_folder
+      |         |--server.py
+      |         |--start_server.bat
+```
+Inside the **Reverse-Shell** folder, you should see two folders: **client_folder** and **server_folder**.
 
-## 4).=========================================================+
+Move the **server_folder** to a place of your liking.
+
+Then, on a different machine, move the **client_folder** to a place of your liking.
+
+## 4).==========================================================
 Now on your main machine, you need to open **server.py** in the **server_folder**.
 
 After opening the file, you must add the ip of your remote machine into the **WHITELIST_IPS** variable, found on line 11
@@ -59,6 +73,7 @@ on your main machine
 
 ## 5).==========================================================
 Run the Batch files in each folder, this will start up each end
+
 Make sure you run the server end first, or else the client wont be able to connect
 
 ## 6).==========================================================
