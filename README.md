@@ -21,7 +21,7 @@ pip install socket psutil colorama
 
 The easiest way to get the Reverse Shell is by using the "git" command.
 
-## 1).==========================================================
+## 1).================================================
 Run the command Below:
 ```
 git clone https://github.com/lamaprogramer/Reverse-Shell
@@ -30,10 +30,7 @@ You will need to do this on the machine you want the server to be on, and the ma
 
 This will clone the repository into your cwd(current working directory).
 
-## 2).==========================================================
-Make sure you have all of the modules needed to run the code
-
-## 3).==========================================================
+## 2).================================================
 Afterward, the folder system should look like this
 ```
 Reverse-Shell
@@ -52,7 +49,7 @@ Move the **server_folder** to a place of your liking.
 
 Then, on a different machine, move the **client_folder** to a place of your liking.
 
-## 4).==========================================================
+## 3).=================================================
 Now on your main machine, you need to open **server.py** in the **server_folder**.
 
 After opening the file, you must add the ip of your remote machine into the **WHITELIST_IPS** variable, found on line 11
@@ -71,12 +68,12 @@ ipconfig
 ```
 on your main machine
 
-## 5).==========================================================
+## 5).==================================================
 Run the Batch files in each folder, this will start up each end
 
 Make sure you run the server end first, or else the client wont be able to connect
 
-## 6).==========================================================
+## 6).==================================================
 If everything ran correctly, After you boot up the server, you should see:
 ```
 Listening as 0.0.0.0:5003 ...
@@ -88,5 +85,5 @@ REMOTEIP:REMOTEPORT Connected!
 C:\Users\remotepc\OneDrive\Desktop\Reverse Shell\client_folder $>
 ```
 
-## 7).==========================================================
+## 6).===================================================
 By this point, you should have nearly full control of the remote pc, you can run any command, as well as transfer files using custom commands built into the Reverse Shell
