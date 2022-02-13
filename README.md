@@ -85,5 +85,23 @@ REMOTEIP:REMOTEPORT Connected!
 C:\Users\remotepc\OneDrive\Desktop\Reverse Shell\client_folder $>
 ```
 
-## 6).===================================================
+## 6).================================================
 By this point, you should have nearly full control of the remote pc, you can run any command, as well as transfer files using custom commands built into the Reverse Shell
+
+
+# Features
+## Custom Commands
+1). upload: uploads files to the client machine
+
+2). download: downloads files from the client machine
+
+3). sysinf: get the system info of the client machine
+
+4). msg: sends a message to the client machine's terminal, the client then has the choise to respond
+
+5). help: displays a list of all custom commands, and a basic description of them
+
+6). exit: shuts down the socket
+
+## Built-in whitelist for extra security
+
