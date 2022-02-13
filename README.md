@@ -49,7 +49,7 @@ Move the **server_folder** to a place of your liking.
 
 Then, on a different machine, move the **client_folder** to a place of your liking.
 
-## 3).=================================================
+## 3).================================================
 Now on your main machine, you need to open **server.py** in the **server_folder**.
 
 After opening the file, you must add the ip of your remote machine into the **WHITELIST_IPS** variable, found on line 11
@@ -68,12 +68,12 @@ ipconfig
 ```
 on your main machine
 
-## 5).==================================================
+## 4).================================================
 Run the Batch files in each folder, this will start up each end
 
 Make sure you run the server end first, or else the client wont be able to connect
 
-## 6).==================================================
+## 5).================================================
 If everything ran correctly, After you boot up the server, you should see:
 ```
 Listening as 0.0.0.0:5003 ...
